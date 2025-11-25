@@ -1,9 +1,7 @@
 # Terminal Portfolio
 
-![Terminal Portfolio Website inspired from Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
-
+<img width="841" height="482" alt="image" src="https://github.com/user-attachments/assets/8a5e756c-0631-4b52-af8e-8a6fa82c9c1e" />
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/81fdb91d-c06f-46c2-b18d-dfc6f090f281/deploy-status)](https://app.netlify.com/sites/terminal-sn/deploys)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
 
 ## Features
@@ -60,7 +58,7 @@ bun run dev
 
 ## Inspiration and Credits
 
-Here are some inspiration for this kind of terminal website.
+Here are some inspirations for this kind of terminal website.
 
 - [Sat Naing's terminal portfolio](https://github.com/satnaing/terminal-portfolio)
 - [term m4tt72](https://term.m4tt72.com/)
