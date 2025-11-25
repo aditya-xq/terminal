@@ -1,8 +1,8 @@
-import { DefaultTheme } from "styled-components";
+import { DefaultTheme } from "styled-components"
 
 export type Themes = {
-  [key: string]: DefaultTheme;
-};
+  [key: string]: DefaultTheme
+}
 
 const theme: Themes = {
   dark: {
@@ -101,6 +101,6 @@ const theme: Themes = {
       },
     },
   },
-};
+}
 
-export default theme;
+export default theme

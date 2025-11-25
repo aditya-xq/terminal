@@ -1,5 +1,5 @@
-import { EduIntro, EduList } from "../styles/Education.styled";
-import { Wrapper } from "../styles/Output.styled";
+import { EduIntro, EduList } from "../styles/Education.styled"
+import { Wrapper } from "../styles/Output.styled"
 
 const Education: React.FC = () => {
   return (
@@ -12,8 +12,8 @@ const Education: React.FC = () => {
         </EduList>
       ))}
     </Wrapper>
-  );
-};
+  )
+}
 
 const eduBg = [
   {
@@ -28,6 +28,6 @@ const eduBg = [
     title: "IELTS 6.5",
     desc: "British Council Myanmar | 2017",
   },
-];
+]
 
-export default Education;
+export default Education

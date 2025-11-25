@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const EduIntro = styled.div`
   margin-bottom: 0.75rem;
-`;
+`
 
 export const EduList = styled.div`
   margin-bottom: 1rem;
@@ -15,4 +15,4 @@ export const EduList = styled.div`
   .desc {
     color: ${({ theme }) => theme.colors?.text[200]};
   }
-`;
+`

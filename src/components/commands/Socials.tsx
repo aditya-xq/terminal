@@ -1,35 +1,35 @@
-import { useContext, useEffect } from "react";
-import { ProjectsIntro } from "../styles/Projects.styled";
-import { Cmd, CmdDesc, CmdList, HelpWrapper } from "../styles/Help.styled";
+import { useContext, useEffect } from "react"
+import { ProjectsIntro } from "../styles/Projects.styled"
+import { Cmd, CmdDesc, CmdList, HelpWrapper } from "../styles/Help.styled"
 import {
   checkRedirect,
   generateTabs,
   getCurrentCmdArry,
   isArgInvalid,
-} from "../../utils/funcs";
-import { termContext } from "../Terminal";
-import Usage from "../Usage";
+} from "../../utils/funcs"
+import { termContext } from "../Terminal"
+import Usage from "../Usage"
 
 const Socials: React.FC = () => {
-  const { arg, history, rerender } = useContext(termContext);
+  const { arg, history, rerender } = useContext(termContext)
 
   /* ===== get current command ===== */
-  const currentCommand = getCurrentCmdArry(history);
+  const currentCommand = getCurrentCmdArry(history)
 
   /* ===== check current command makes redirect ===== */
   useEffect(() => {
     if (checkRedirect(rerender, currentCommand, "socials")) {
       socials.forEach(({ id, url }) => {
-        id === parseInt(arg[1]) && window.open(url, "_blank");
-      });
+        id === parseInt(arg[1]) && window.open(url, "_blank")
+      })
     }
-  }, [arg, rerender, currentCommand]);
+  }, [arg, rerender, currentCommand])
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
     isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
       <Usage cmd="socials" />
-    ) : null;
+    ) : null
 
   return arg.length > 0 || arg.length > 2 ? (
     checkArg()
@@ -45,8 +45,8 @@ const Socials: React.FC = () => {
       ))}
       <Usage cmd="socials" marginY />
     </HelpWrapper>
-  );
-};
+  )
+}
 
 const socials = [
   {
@@ -73,6 +73,6 @@ const socials = [
     url: "https://instagram.com/satnaing.dev",
     tab: 0,
   },
-];
+]
 
-export default Socials;
+export default Socials

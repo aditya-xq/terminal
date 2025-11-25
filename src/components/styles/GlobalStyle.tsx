@@ -1,5 +1,5 @@
-import { createGlobalStyle, DefaultTheme } from "styled-components";
-import { normalize } from "styled-normalize";
+import { createGlobalStyle, DefaultTheme } from "styled-components"
+import { normalize } from "styled-normalize"
 
 const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   ${normalize}
@@ -67,6 +67,6 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
     height: 1px;
     overflow: hidden;
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

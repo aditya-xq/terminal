@@ -2,7 +2,7 @@ import {
   AboutWrapper,
   HighlightAlt,
   HighlightSpan,
-} from "../styles/About.styled";
+} from "../styles/About.styled"
 
 const About: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const About: React.FC = () => {
         developing web applications to solve real-life challenges.
       </p>
     </AboutWrapper>
-  );
-};
+  )
+}
 
-export default About;
+export default About

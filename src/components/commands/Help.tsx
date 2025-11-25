@@ -4,9 +4,9 @@ import {
   CmdList,
   HelpWrapper,
   KeyContainer,
-} from "../styles/Help.styled";
-import { commands } from "../Terminal";
-import { generateTabs } from "../../utils/funcs";
+} from "../styles/Help.styled"
+import { commands } from "../Terminal"
+import { generateTabs } from "../../utils/funcs"
 
 const Help: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const Help: React.FC = () => {
         <div>Ctrl + l {generateTabs(5)} =&gt; clear the terminal</div>
       </KeyContainer>
     </HelpWrapper>
-  );
-};
+  )
+}
 
-export default Help;
+export default Help

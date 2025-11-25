@@ -7,7 +7,7 @@ import {
   PreNameMobile,
   PreWrapper,
   Seperator,
-} from "../styles/Welcome.styled";
+} from "../styles/Welcome.styled"
 
 const Welcome: React.FC = () => {
   return (
@@ -77,7 +77,7 @@ const Welcome: React.FC = () => {
         </PreImg>
       </div>
     </HeroContainer>
-  );
-};
+  )
+}
 
-export default Welcome;
+export default Welcome
