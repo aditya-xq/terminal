@@ -3,20 +3,23 @@ import {
   HighlightAlt,
   HighlightSpan,
 } from "../styles/About.styled"
+import data from "../../data.json"
 
 const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Sat Naing</HighlightSpan>!
+        Kon'nichiwa, I'm <HighlightSpan>{data.name}</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt> based in Yangon,
-        Myanmar.
+        I'm <HighlightAlt>a full-stack, applied AI engineer</HighlightAlt> based
+        in Bengaluru, India.
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+        Give me a problem, vision, or desired outcome — I’ll figure out the
+        rest.
+        <br />
+        Tech agnostic. Context-first. Results-driven.
       </p>
     </AboutWrapper>
   )

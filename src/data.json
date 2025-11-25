@@ -1,0 +1,58 @@
+{
+  "name": "Aditya Vivek Thota",
+  "title": "Full-Stack Developer",
+  "location": "Remote",
+  "email": "adityavive.xq@gmail.com",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Q - New Tab Extension",
+      "desc": " Minimalist new-tab to-do extension that transforms the browser’s default new tab into a fast distraction-free productivity dashboard.",
+      "url": "https://github.com/aditya-xq/Q"
+    },
+    {
+      "id": 2,
+      "title": "TechFlix",
+      "desc": "A large engineering-content aggregation platform (150+ blogs, research journals). Built backend crawlers and summarizers (Python, BeautifulSoup, Transformers) and a responsive front-end using SvelteKit and TypeScript.",
+      "url": "https://www.techflix.club"
+    },
+    {
+      "id": 3,
+      "title": "AutoProject",
+      "desc": " AI-driven product management tool that generates PRDs and user stories and integrates with Linear.",
+      "url": "https://github.com/aditya-xq/AutoProject"
+    },
+    {
+      "id": 4,
+      "title": "PicToWebP",
+      "desc": "A blazingly fast, lightweight bulk image to WebP converter that can help you save over 90% of disk space.",
+      "url": "https://github.com/aditya-xq/PicToWebP"
+    }
+  ],
+  "socials": [
+    {
+      "id": 1,
+      "title": "GitHub",
+      "url": "https://github.com/aditya-xq",
+      "tab": 0
+    },
+    {
+      "id": 2,
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-vivek-thota/",
+      "tab": 1
+    },
+    {
+      "id": 3,
+      "title": "X (Twitter)",
+      "url": "https://x.com/xq_is_here",
+      "tab": 2
+    },
+    {
+      "id": 4,
+      "title": "Instagram",
+      "url": "https://www.instagram.com/xqbuilds/",
+      "tab": 3
+    }
+  ]
+}

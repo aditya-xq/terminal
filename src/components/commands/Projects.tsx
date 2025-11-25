@@ -12,6 +12,7 @@ import {
 } from "../styles/Projects.styled"
 import { termContext } from "../Terminal"
 import Usage from "../Usage"
+import data from "../../data.json"
 
 const Projects: React.FC = () => {
   const { arg, history, rerender } = useContext(termContext)
@@ -22,7 +23,7 @@ const Projects: React.FC = () => {
   /* ===== check current command is redirect ===== */
   useEffect(() => {
     if (checkRedirect(rerender, currentCommand, "projects")) {
-      projects.forEach(({ id, url }) => {
+      data.projects.forEach(({ id, url }) => {
         id === parseInt(arg[1]) && window.open(url, "_blank")
       })
     }
@@ -42,7 +43,7 @@ const Projects: React.FC = () => {
         “Talk is cheap. Show me the code”? I got you. <br />
         Here are some of my projects you shouldn't misss
       </ProjectsIntro>
-      {projects.map(({ id, title, desc }) => (
+      {data.projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
           <ProjectTitle>{`${id}. ${title}`}</ProjectTitle>
           <ProjectDesc>{desc}</ProjectDesc>
@@ -52,32 +53,5 @@ const Projects: React.FC = () => {
     </div>
   )
 }
-
-const projects = [
-  {
-    id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
-  },
-  {
-    id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
-  },
-  {
-    id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
-  },
-]
 
 export default Projects

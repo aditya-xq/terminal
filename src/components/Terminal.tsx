@@ -27,7 +27,7 @@ type Command = {
 }[]
 
 export const commands: Command = [
-  { cmd: "about", desc: "about Sat Naing", tab: 8 },
+  { cmd: "about", desc: "about Aditya Vivek Thota", tab: 8 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
   { cmd: "education", desc: "my education background", tab: 4 },
@@ -90,7 +90,7 @@ const Terminal = () => {
     setHints([])
   }
 
-  // focus on input when terminal is clicked
+  // Focus on input when terminal is clicked
   const handleDivClick = () => {
     inputRef.current && inputRef.current.focus()
   }

@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className="App">
       <h1 className="sr-only" aria-label="Terminal Portfolio">
         Terminal Portfolio
       </h1>
@@ -62,7 +62,7 @@ function App() {
           </themeContext.Provider>
         </ThemeProvider>
       )}
-    </>
+    </div>
   )
 }
 

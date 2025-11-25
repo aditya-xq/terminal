@@ -1,4 +1,4 @@
-# Terminal Portfolio Website by Sat Naing
+# Terminal Portfolio
 
 ![Terminal Portfolio Website inspired from Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
 
@@ -31,7 +31,7 @@ Currently, this website supports 6 themes. Type `themes` in the terminal for mor
 ## Lighthouse Score
 
 <p align="center">
-<img width="710" alt="Sat Naing Terminal Lighthouse Score" src="public/lighthouse-result.svg">
+<img width="710" alt="Terminal Lighthouse Score" src="public/lighthouse-result.svg">
 </p>
 
 ## Running Locally
@@ -62,9 +62,8 @@ bun run dev
 
 ## Inspiration and Credits
 
-Here are some inspiration for this kind of terminal website. Only some features and functionalities are inspired by these following websites.
+Here are some inspiration for this kind of terminal website.
 
 - [Sat Naing's terminal portfolio](https://github.com/satnaing/terminal-portfolio)
 - [term m4tt72](https://term.m4tt72.com/)
 - [Forrest](https://fkcodes.com/)
-
