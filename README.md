@@ -1,6 +1,8 @@
 # Terminal Portfolio
+A sleek terminal-style personal webpage built on top of Sat Naing's terminal-portfolio fork (Linked below).
 
-<img width="841" height="482" alt="image" src="https://github.com/user-attachments/assets/8a5e756c-0631-4b52-af8e-8a6fa82c9c1e" />
+<img width="841" height="482" alt="image" src="https://github.com/user-attachments/assets/8a5e756c-0631-4b52-af8e-8a6fa82c9c1e" />  
+
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
 
@@ -22,7 +24,6 @@
 **Testing** - [Vitest](https://vitest.dev/), [React Testing Library](https://testing-library.com/)  
 
 Currently, this website supports 6 themes. Type `themes` in the terminal for more info.
-![terminal-portfolio-themes](https://user-images.githubusercontent.com/53733092/194221801-94f1c28b-4865-4b7f-a73e-d41132519bea.png)
 
 ## Lighthouse Score
 
